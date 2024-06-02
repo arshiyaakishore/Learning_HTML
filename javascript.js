@@ -20,3 +20,5 @@ if(mystery[0] === 'P' && mystery.length > 5 && mystery.indexOf('7') !== -1){
     console.log("YOU GOT IT!!!");
 }
 -----------
+//Array definition
+let lottoNumbers=[1,2,3,4,5,6];
