@@ -11,7 +11,6 @@ const die2 = Math.floor(Math.random() * 6) + 1; //random number from 1-6
 // YOUR CODE BELOW THIS LINE:
 const roll=`You rolled a ${die1} and a ${die2}. They sum to ${die1 + die2}`;
 --------------------------
-
 ------LOGICAL AND--------
 const mystery = 'P56p097'; //CHANGE THIS VALUE TO MAKE THE CONDITIONAL BELOW TRUE
 
