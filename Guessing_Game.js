@@ -10,8 +10,10 @@ console.log(targetnum)
 
 let guess=parseInt(prompt("Enter your firat guess:"))
 attempts=1;
-while(guess!=taregtnum)
+while(parseInt(guess)!=targetnum)
   {
+    if(guess==='q')break;
+      
     attempts++;
     if(guess>targetnum)
     {
@@ -22,4 +24,13 @@ while(guess!=taregtnum)
     }
     
   }
+
+if(guess==='q')
+{
+  console.log("You quit")
+}
+else
+{
+  console.log("You win")
 console.log(`You got it! It took you ${attempts} attempts`);
+}
