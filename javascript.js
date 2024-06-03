@@ -43,3 +43,19 @@ const airplaneSeats = [
 ];
 // YOUR CODE GOES BELOW THIS LINE:
 airplaneSeats[3][1]='Hugo'
+
+//LOOPS
+// Print out "Da ba dee da ba daa" 6 times, using a for loop
+for(let i=0; i<6; i++)
+{
+    console.log("Da ba dee da ba daa")
+}
+
+
+const people = ["Scooby", "Velma", "Daphne", "Shaggy", "Fred"]; //DONT TOUCH THIS LINE!
+// WRITE YOUR LOOP BELOW THIS LINE:
+for(let i=0; i<people.length; i++)
+{
+    console.log(people[i].toUpperCase())
+}
+
