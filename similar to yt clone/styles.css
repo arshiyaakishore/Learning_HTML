@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff; /* White background */
+}
+
+
+.video-grid {
+    background-color: #f00; /* Red video grid background */
+}
+header {
+    
+    background-color: #000; /* Black header */
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.search-bar {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#search-input {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff; /* YouTube's search input background color */
+    border: 1px solid #ddd; /* YouTube's search input border color */
+}
+
+#search-btn {
+    background-color: #4CAF50; /* YouTube's search button color */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.video-card {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd; /* YouTube's video card border color */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+}
+
+.video-card.video-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333; /* YouTube's video title color */
+}
+
+.video-card.video-desc {
+    font-size: 14px;
+    color: #666; /* YouTube's video description color */
+}
