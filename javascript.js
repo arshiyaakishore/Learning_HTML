@@ -60,6 +60,7 @@ for(let i=0; i<people.length; i++)
 }
 
 //Functions
+
 function printHeart()
 {
     console.log("<3");
@@ -98,7 +99,6 @@ function returnDay(num) {
 }
 
 // Some more different approaches:
-
 function returnDay(num) {
   if (num < 1 || num > 7) {
     return null;
