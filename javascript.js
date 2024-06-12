@@ -73,7 +73,6 @@ function isSnakeEyes(die1, die2) {
     console.log('Not Snake Eyes!');
   }
 }
-
 function multiply(num1, num2) {
   return num1 * num2;
 }
