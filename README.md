@@ -1,3 +1,3 @@
 # Learning_HTML_CSS_JS
 
-Basic codes to start with web dev :)
+Basic codes I learnt to start with web dev :)
