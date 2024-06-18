@@ -3,6 +3,7 @@ while (!maximum) {
     maximum = parseInt(prompt("Enter a valid number!"));
 }
 
+
 const targetNum = Math.floor(Math.random() * maximum) + 1;
 
 let guess = prompt("Enter your first guess! (Type 'q' to quit)");
