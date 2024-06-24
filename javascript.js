@@ -1,6 +1,5 @@
 const message = "    TASTE THE RAINBOW!  "; //DON'T CHANGE THIS LINE PLEASE!
 
-
 let whisper= message.toLowerCase().trim()
 ------------------------
   // NO TOUCHING! (please)
